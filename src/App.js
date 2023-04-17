@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Measurements from './Measurements';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Make My Coffee</h1>
       </header>
+      <hr></hr>
+      <Measurements />
+      <br></br>
+      <a>https://bluebottlecoffee.com/us/eng/brew-guides/pour-over</a>
     </div>
   );
 }
